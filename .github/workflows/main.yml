@@ -55,13 +55,13 @@ on:
     branches:
       - $default-branch
 
-env:
-  PROJECT_ID: YOUR_PROJECT_ID # TODO: update Google Cloud project id
-  GAR_LOCATION: YOUR_GAR_LOCATION # TODO: update Artifact Registry location
-  REPOSITORY: YOUR_REPOSITORY_NAME # TODO: update Artifact Registry repository name
-  SERVICE: YOUR_SERVICE_NAME # TODO: update Cloud Run service name
-  REGION: YOUR_SERVICE_REGION # TODO: update Cloud Run service region
-  SOURCE_DIRECTORY: YOUR_SOURCE_DIRECTORY #TODO: update source code directory 
+# env:
+#  PROJECT_ID: YOUR_PROJECT_ID # TODO: update Google Cloud project id
+#  GAR_LOCATION: YOUR_GAR_LOCATION # TODO: update Artifact Registry location
+#  REPOSITORY: YOUR_REPOSITORY_NAME # TODO: update Artifact Registry repository name
+#  SERVICE: YOUR_SERVICE_NAME # TODO: update Cloud Run service name
+#  REGION: YOUR_SERVICE_REGION # TODO: update Cloud Run service region
+#  SOURCE_DIRECTORY: YOUR_SOURCE_DIRECTORY #TODO: update source code directory 
 
 jobs:
   deploy:
