@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  const name = process.env.NAME || 'World is not enough';
+  const name = process.env.NAME || 'World is ';
   res.send(`Hello ${name}!`);
 });
 
