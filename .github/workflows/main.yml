@@ -54,7 +54,7 @@ jobs:
       # alternative build step
       - name: Build app with pack CLI & publish to GitHub Container Registry
         run: |
-          pack build ${{ env.GAR_LOCATION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.SERVICE }}:${{ github.sha }} \
+          pack build europe-central2-docker.pkg.dev-docker.pkg.dev/${{ env.PROJECT_ID }}/${{ env.REPOSITORY }}/${{ env.SERVICE }}:${{ github.sha }} \
               --builder paketobuildpacks/builder:tiny \
               --path . \
               --publish
